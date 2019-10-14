@@ -5,20 +5,6 @@ require_once 'Escritores.php';
 require_once 'Noticias.php';
 require_once 'Usuarios.php';
 
-// $usuario = new Usuarios('hector', 456);
-// $usuario->insert();
-// $escritor = new Escritores('Raul', 'Lopez', 44);var_dump($escritor);die();
-// $escritor->insert();
-//$con = new Conexion();
-//$result = $con->exec("SELECT * FROM usuarios")->fetchAll();
-// $query = $con->prepare("SELECT * FROM usuarios");
-// $query->execute();
-// $result = $query->fetchAll();
-// var_dump($result);
-//var_dump($usuario->getUser('hector'));
-// $esc = new Escritores('julio', 'cortazar', 65);
-// $esc->insert();
-//$not = new Noticias('Selección Argentina', 'Gana y no convence', '2019-10-13', 'La selección ganó pero jugó horrible y todo eso por el muerto de Scaloni. La selección ganó pero jugó horrible y todo eso por el muerto de Scaloni. La selección ganó pero jugó horrible y todo eso por el muerto de Scaloni. La selección ganó pero jugó horrible y todo eso por el muerto de Scaloni. La selección ganó pero jugó horrible y todo eso por el muerto de Scaloni.', 'Deportes', 1);
 $writers = Escritores::getWriters();
 //var_dump($escritores);
 ?>
